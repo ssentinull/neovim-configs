@@ -11,10 +11,10 @@ vim.keymap.set("i", "jk", "<ESC>")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
--- on normal mode, press "J" to remove new lines on current cursor end of line 
+-- on normal mode, press "J" to remove new lines on current cursor end of line
 vim.keymap.set("n", "J", "mzJ`z")
 
--- on normal mode, press "ctrl + d/u" to recenter cursor to the middle 
+-- on normal mode, press "ctrl + d/u" to recenter cursor to the middle
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
@@ -40,7 +40,9 @@ vim.keymap.set("n", "<leader>tp", ":tabp<CR>")
 -- on normal mode, press space + e to open & close file explorer
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
-vim.keymap.set("x", "<leader>p", "\"_dP")
+vim.keymap.set("x", "<leader>p", '"_dP')
+
+vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
 
 -- keymaps for telescope
 vim.keymap.set("n", "<leader>pf", "<cmd>Telescope find_files<cr>")
@@ -48,14 +50,13 @@ vim.keymap.set("n", "<leader>ps", "<cmd>Telescope live_grep<cr>")
 vim.keymap.set("n", "<leader>pw", "<cmd>Telescope grep_string<cr>")
 vim.keymap.set("n", "<leader>pb", "<cmd>Telescope buffers<cr>")
 
-vim.keymap.set("n", "<leader>y", "\"+y")
-vim.keymap.set("v", "<leader>y", "\"+y")
-vim.keymap.set("n", "<leader>Y", "\"+Y")
+vim.keymap.set("n", "<leader>y", '"+y')
+vim.keymap.set("v", "<leader>y", '"+y')
+vim.keymap.set("n", "<leader>Y", '"+Y')
 
-vim.keymap.set("n", "<leader>d", "\"_d")
-vim.keymap.set("v", "<leader>d", "\"_d")
+vim.keymap.set("n", "<leader>d", '"_d')
+vim.keymap.set("v", "<leader>d", '"_d')
 
 vim.keymap.set("n", "Q", "<nop>")
 
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux new tmux-sessionizer<CR>")
-
