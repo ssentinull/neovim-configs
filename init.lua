@@ -1,5 +1,6 @@
 require("ssentinull.packer")
-require("ssentinull")
+require("ssentinull.core.remap")
+require("ssentinull.core.options")
 require("ssentinull.comment")
 require("ssentinull.nvim-tree")
 require("ssentinull.lualine")
