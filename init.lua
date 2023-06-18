@@ -1,6 +1,7 @@
 require("ssentinull.packer")
 require("ssentinull.core.remap")
 require("ssentinull.core.options")
+require("ssentinull.core.colorscheme")
 require("ssentinull.plugins.autopairs")
 require("ssentinull.plugins.comment")
 require("ssentinull.plugins.gitsigns")

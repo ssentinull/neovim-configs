@@ -52,13 +52,14 @@ return require("packer").startup(function(use)
 	use("szw/vim-maximizer")
 
 	-- neovim theme
-	use({
-		"folke/tokyonight.nvim",
-		as = "tokyonight",
-		config = function()
-			vim.cmd("colorscheme tokyonight-night")
-		end,
-	})
+	use("bluz71/vim-nightfly-guicolors")
+	-- use({
+	-- 	"folke/tokyonight.nvim",
+	-- 	as = "tokyonight",
+	-- 	config = function()
+	-- 		vim.cmd("colorscheme tokyonight-night")
+	-- 	end,
+	-- })
 
 	-- plugin for autocompletion
 	use("hrsh7th/nvim-cmp")

@@ -30,15 +30,14 @@ vim.opt.smartcase = true
 
 -- terminal colors
 vim.opt.termguicolors = true
+vim.opt.background = "dark"
+vim.opt.signcolumn = "yes"
 
 -- split windows
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
-
 vim.opt.updatetime = 50
-
 vim.opt.colorcolumn = "80"
