@@ -14,7 +14,6 @@ null_ls.setup({
 		formatting.stylua,
 		formatting.gofmt,
 		formatting.goimports,
-		formatting.golines,
 		diagnostics.eslint_d,
 	},
 	filetypes = {
