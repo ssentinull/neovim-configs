@@ -34,8 +34,15 @@ vim.keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 -- on normal mode, press these to manage tabs
 vim.keymap.set("n", "<leader>to", ":tabnew<CR>")
 vim.keymap.set("n", "<leader>tx", ":tabclose<CR>")
-vim.keymap.set("n", "<leader>tn", ":tabn<CR>")
-vim.keymap.set("n", "<leader>tp", ":tabp<CR>")
+vim.keymap.set("n", "<leader>1", ":tabn 1<CR>")
+vim.keymap.set("n", "<leader>2", ":tabn 2<CR>")
+vim.keymap.set("n", "<leader>3", ":tabn 3<CR>")
+vim.keymap.set("n", "<leader>4", ":tabn 4<CR>")
+vim.keymap.set("n", "<leader>5", ":tabn 5<CR>")
+vim.keymap.set("n", "<leader>6", ":tabn 6<CR>")
+vim.keymap.set("n", "<leader>7", ":tabn 7<CR>")
+vim.keymap.set("n", "<leader>8", ":tabn 8<CR>")
+vim.keymap.set("n", "<leader>9", ":tabn 9<CR>")
 
 -- on normal mode, press space + e to open & close file explorer
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
