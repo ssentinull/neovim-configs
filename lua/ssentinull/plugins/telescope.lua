@@ -19,6 +19,26 @@ telescope.setup({
 			},
 		},
 	},
+	pickers = {
+		find_files = {
+			theme = "dropdown",
+			layout_config = {
+				width = 0.65,
+			},
+		},
+		live_grep = {
+			theme = "dropdown",
+			layout_config = {
+				width = 0.65,
+			},
+		},
+		grep_string = {
+			theme = "dropdown",
+			layout_config = {
+				width = 0.65,
+			},
+		},
+	},
 })
 
 telescope.load_extension("fzf")
