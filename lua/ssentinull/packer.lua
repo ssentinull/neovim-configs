@@ -53,13 +53,6 @@ return require("packer").startup(function(use)
 
 	-- neovim theme
 	use("bluz71/vim-nightfly-guicolors")
-	-- use({
-	-- 	"folke/tokyonight.nvim",
-	-- 	as = "tokyonight",
-	-- 	config = function()
-	-- 		vim.cmd("colorscheme tokyonight-night")
-	-- 	end,
-	-- })
 
 	-- plugin for autocompletion
 	use("hrsh7th/nvim-cmp")
@@ -75,9 +68,10 @@ return require("packer").startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 
 	-- plugin for 'adding' character to surrounding a motion
-	-- eg: ys + w + " would add " to a word
-	-- eg: ds + " would delete the surrounding " of the word
-	-- eg: cs + w + " + ' would change " that wraps around a word to a '
+	-- eg: ys + w + "                   -> would add " to a word
+	-- eg: ds + "                       -> would delete the surrounding " of the word
+	-- eg: cs + w + " + '               -> would change " that wraps around a word to a '
+	-- eg: block multiple lines + S + { -> encase the blocked files with {}
 	use("tpope/vim-surround")
 
 	-- plugin to replace the current word with the word in the copy buffer
@@ -85,8 +79,8 @@ return require("packer").startup(function(use)
 	use("vim-scripts/ReplaceWithRegister")
 
 	-- plugin for writing comments
-	-- eg: g + c + c would comment the entire line
-	-- eg: g + c + 8 + j would comment the new 8 lines
+	-- eg: g + c + c        -> would comment the entire line
+	-- eg: g + c + 8 + j    -> would comment the new 8 lines
 	use("numToStr/Comment.nvim")
 
 	-- plugin for treesitter
