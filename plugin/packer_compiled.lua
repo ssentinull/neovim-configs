@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/efishery/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/efishery/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/efishery/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -223,11 +228,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/efishery/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
-  },
-  ["vim-nightfly-guicolors"] = {
-    loaded = true,
-    path = "/Users/efishery/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
-    url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
   ["vim-surround"] = {
     loaded = true,

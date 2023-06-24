@@ -52,7 +52,8 @@ return require("packer").startup(function(use)
 	use("szw/vim-maximizer")
 
 	-- neovim theme
-	use("bluz71/vim-nightfly-guicolors")
+	-- use("bluz71/vim-nightfly-guicolors")
+	use({ "catppuccin/nvim", as = "catppuccin" })
 
 	-- plugin for autocompletion
 	use("hrsh7th/nvim-cmp")
